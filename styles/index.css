@@ -39,3 +39,247 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* --- GENERAL --- */
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #111;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* --- ENCABEZADO --- */
+
+.header {
+}
+
+.header__content {
+}
+
+.header__title {
+}
+
+.header__subtitle {
+}
+
+.header__description {
+}
+
+/* --- LISTA ENCABEZADO --- */
+
+.header__nav {
+}
+
+.header__links {
+}
+
+.header__item {
+}
+
+.header__link {
+}
+
+.header__image {
+}
+
+/* --- CONTENIDO PRINCIPAL --- */
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  box-sizing: border-box;
+}
+
+/* --- SECCIÓN HABILIDADES -- */
+
+.skills {
+  margin-bottom: 100px;
+}
+
+.skills__title {
+  font-family: "Archivo Black", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills__icon {
+  width: 50px;
+  height: auto;
+}
+
+/* --- SECCIÓN PROYECTOS --- */
+
+.projects {
+}
+
+.projects__title {
+  font-family: "Archivo Black", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* --- -- PROYECTO 1: Cafetería --- */
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1c;
+  width: 100%;
+}
+
+/* --- Contenedor multimedia para posicionar las tecnologías sobre la imagen --- */
+
+.project-card__media {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.project-card__image {
+  width: 100%;
+  height: auto;
+}
+
+.project-card__tech {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 12px;
+  gap: 10px;
+  z-index: 10;
+}
+
+.project-card__tech-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.project-card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.project-card__name {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.project-card__description {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.project-card__nav {
+  margin-top: auto;
+}
+
+.project-card__links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-card__item {
+}
+
+.project-card__link {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-card__link--primary {
+  color: #6d6dff;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.project-card__link--secondary {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.project-card__link-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* --- -- PIE DE PAGINA --- */
+
+.footer {
+}
+
+.footer__title {
+}
+
+.footer__email {
+}
+
+.footer__nav {
+}
+
+.footer__list {
+}
+
+.footer__item {
+}
+
+.footer__link {
+}
+
+.footer__icon {
+}
+
+/* --- ESTADOS HOVER --- */
+
+.project-card__link--primary:hover {
+  opacity: 0.5;
+}
+
+.project-card__link--secondary:hover {
+  opacity: 0.5;
+}
